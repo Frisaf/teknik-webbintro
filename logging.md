@@ -9,7 +9,7 @@ Via terminalen skapade jag en ny fil, och kopplade det sedan denna med github me
 Eftersom jag redan hade en mapp vid namn ```code``` behövde jag inte använda mig av ```mkdir```-kommandot
 
 #### Git-kommandon
-* ```pwd```
-* ```cd code```
-* ```git clone```
-* ```code .```
+* ```pwd``` - Vilken mapp har jag öppen just nu?
+* ```cd code``` - Navigera till mappen ```code```
+* ```git clone``` - Klona repon från GitHub till VS Code och koppla samman dem.
+* ```code .``` - Öppna VS code.
