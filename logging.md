@@ -13,3 +13,9 @@ Eftersom jag redan hade en mapp vid namn ```code``` behövde jag inte använda m
 * ```cd code``` - Navigera till mappen ```code```
 * ```git clone``` - Klona repon från GitHub till VS Code och koppla samman dem.
 * ```code .``` - Öppna VS code.
+
+## 15/1-24
+### Vad?
+* Skapade en mapp vid namn ```docs``` och flyttade ```index.html``` dit.
+* Bytte bilder och gjorde några ändringar till texten.
+* Flyttade css till en designerad ```.css``` fil.

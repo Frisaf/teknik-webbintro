@@ -1,0 +1,67 @@
+  div.mainBox {
+        font-family: 'Ubuntu', sans-serif;
+        background-image: image-set("images/ralf.jpg");
+        background-size: 50%;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        display: flex;
+    }
+
+    .centerBackground {
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+        text-align: center;
+        align-self: center;
+    }
+
+    .textBox {
+        background-color: rgba(0,0,0,.5);
+        width: 75%;
+        height: 75%;
+        text-align: center;
+        align-self: center;
+        margin: auto;
+        font-size: 20px;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: 500px;
+        border-color: black;
+        border-radius: 20px;
+    }
+
+    div.listBox {
+        text-align: center;
+    }
+
+    ul.listOne{
+        display: inline-block;
+        text-align: left;
+    }
+
+    a:link {
+        color: lightblue;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: violet;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: orange;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: orangered;
+        background-color: transparent;
+        text-decoration: underline;
+    }
