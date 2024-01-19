@@ -101,10 +101,3 @@ main {
         -webkit-filter: invert(1);
         filter: invert(1);
     }
-
-    .navlogo {
-        -webkit-filter: invert(1);
-        filter: invert(1);
-        width: 5%;
-        height: 5%;
-    }
