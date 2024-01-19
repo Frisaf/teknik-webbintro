@@ -1,12 +1,21 @@
-  div.mainBox {
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
+.mainBox {
         font-family: 'Ubuntu', sans-serif;
         background-image: image-set("images/ralf.jpg");
         background-size: 50%;
         background-position: center;
         color: white;
         text-align: center;
-        padding: 10px;
-        display: flex;
+        display: grid;
     }
 
     .centerBackground {
@@ -64,4 +73,31 @@
         color: orangered;
         background-color: transparent;
         text-decoration: underline;
+    }
+
+    .navbar {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        background-color: black;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        background-color: red;
+    }
+
+    .githublogoimg {
+        -webkit-filter: invert(1);
+        filter: invert(1);
     }
