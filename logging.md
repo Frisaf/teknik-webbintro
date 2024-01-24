@@ -25,3 +25,8 @@ Eftersom jag redan hade en mapp vid namn ```code``` behövde jag inte använda m
 * Skapade ```about.html``` där det står vem som gjort sidan, att det är ett skolprojekt samt en länk till GitHub repot.
 * Skapde en navbar för enkel åtkomst till ```about.html```, startsidan (```index.html```) samt GitHub repot. Lade även till ikoner till knapparna.
 * Ändrade texten i ```index.html```.
+
+## 22/1-24
+### Vad?
+* Skapade ```tekniker.html``` med en summering av vad jag har jobbat med under detta moment.
+* Skapade en search bar (endast front end, den fungerar alltså inte).

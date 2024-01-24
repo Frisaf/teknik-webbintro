@@ -1,14 +1,14 @@
-html, body {
-    padding: 0;
-    margin: 0;
-}
+    html, body {
+        padding: 0;
+        margin: 0;
+    }
 
-main {
-    padding: 0;
-    margin: 0;
-}
+    main {
+        padding: 0;
+        margin: 0;
+    }
 
-.mainBox {
+    .mainBox {
         font-family: 'Ubuntu', sans-serif;
         background-image: image-set("images/ralf.jpg");
         background-size: 50%;
@@ -137,4 +137,17 @@ main {
         .navbar input[type=text] {
             border: 1px solid #ccc;
         }
+    }
+
+    .bgswitchbtn {
+        background-color: transparent;
+        color: white;
+        font: inherit;
+    }
+
+    div.navcontent {
+        width: fit-content;
+        height: inherit;
+        display: flex;
+        flex-direction: row-reverse;
     }
