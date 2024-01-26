@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teknik</title>
+    <title>Teknik webbintro - Tekniker</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -25,7 +25,13 @@
                     GitHub Repo</a></li>
                     <li><a href="tekniker.html"><i class="fa fa-wrench" aria-hidden="true"></i>
                     Tekniker</a></li>
+                    <li><a href="history.html"><i class="fa fa-book" aria-hidden="true"></i>
+                        Historia</a></li>
             </ul>
+            <div class="navcontent">
+                <input type="text" placeholder="Search...">
+                <button class="bgswitchbtn" id="bgswitch">Ändra bakgrund</button>
+            </div>
         </nav>
         <div class="centerBackground">
             <div class="textBox">
@@ -35,6 +41,7 @@
                         <li><a href="#html">HTML</a></li>
                         <li><a href="#git">Git / GitHub</a></li>
                         <li><a href="#css">CSS</a></li>
+                        <li><a href="#javascript">JavaScript</a></li>
                     </ul>
                 <h2 id="html">HTML</h2>
                     <p>HTML står för <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage och är det språk jag använt mig under detta projekt. <br>
@@ -49,11 +56,17 @@
                     <p>Denna tagg liknar strong-taggen, men skillnaden är att denna indikerar att texten ska vara i <em>kursiv</em> stil. Förkortningen em står för <em>emphasis</em>, vilket är engelska för <em>betoning</em>.</p>
 
                 <h2 id="git">Git / GitHub</h2>
-                    <p>Git är ett versionshanteringsverktyg som gör att man kan synka alla ändringar med medarbetare om man är flera som jobbar på ett projekt. I detta projekt har jag använt Git för att kunna ladda upp mitt projekt till GitHub, det vill säga en webbsida för git repositories.</p>
+                    <p>Git är ett versionshanteringsverktyg som gör att man kan synka alla ändringar med medarbetare om man är flera som jobbar på ett projekt. I detta projekt har jag använt Git för att kunna ladda upp mitt projekt till GitHub, det vill säga en webbsida för git repositories.<br><br>
+                    Om du vill veta mer om vilka taggar jag använt, ta en titt på <a href="https://github.com/Frisaf/teknik-webbintro">GitHub repositoryt</a> och läs filen logging.md där jag förklarar mer om vilka git kommandon jag använt.</p>
                 
                 <h2 id="css">CSS</h2>
                     <p>CSS är en förkortning och står för <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets. CSS används för att skapa stilar till olika sorters markup språk, till exempel HTML som jag använt i detta projekt. Med CSS kan man skapa olika så kallade klasser som bestämmer hur exempelvis alla divar med denna tagg ska se ut. Man kan också med hjälp av CSS bestämma hur <em>alla</em> taggar av en specifik sort ska se ut. En klass har en punkt framför sig, sedan måsvingar och inuti måsvingarna olika regler för den klassen. Om man vill bestämma en stil för alla taggar av en sort tar man bara bort punkten. Resten är samma.</p>
+                
+                <h2 id="javascript">JavaScript</h2>
+                        <p>JavaScript är ett programmeringsspråk som ofta används till webben tillsammans med HTML och CSS. JavaScript används ofta för att få vissa funktioner på hemsidan att fungera, som t.ex min knapp som ändrar bakgrund på sidan.</p>
             </div>
             </div>
     </main>
+    <script src="script.js"></script>
+</body>
 </html>

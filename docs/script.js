@@ -1,7 +1,8 @@
 const bgswitch = document.getElementById("bgswitch")
 
 function changeBackground(color) {
-    document.mainBox.style.background = color;
+    const main = document.querySelector('.mainBox')
+    main.classList.toggle('light')
 }
 
 bgswitch.addEventListener("click", function() { changeBackground('darkgrey')})

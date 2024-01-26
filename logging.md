@@ -13,6 +13,7 @@ Eftersom jag redan hade en mapp vid namn ```code``` behövde jag inte använda m
 * ```cd code``` - Navigera till mappen ```code```
 * ```git clone``` - Klona repon från GitHub till VS Code och koppla samman dem.
 * ```code .``` - Öppna VS code.
+* ```git pull``` - pusha och pulla edits till och från repositoryt på GitHub. Om jag har gjort ändringar på en annan enhet uppdateras dessa inte lokalt på denna dator, vilket betyder att jag måste använda detta kommando.
 
 ## 15/1-24
 ### Vad?
