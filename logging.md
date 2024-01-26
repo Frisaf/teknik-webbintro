@@ -31,3 +31,9 @@ Eftersom jag redan hade en mapp vid namn ```code``` behövde jag inte använda m
 ### Vad?
 * Skapade ```tekniker.html``` med en summering av vad jag har jobbat med under detta moment.
 * Skapade en search bar (endast front end, den fungerar alltså inte).
+
+## 26/1-24
+### Vad?
+* Skapade ```history.html``` med lite rolig internetfakta om världens första mail.
+* Skapade tidigare (hemma) en knapp som skulle kunna ändra bakgrund för bättre läsbarhet om man klickade på den, men lyckades inte få den att fungera. Denna lektionen fixade jag detta, så nu ändrar den bakgrundsfärg till mörkgrå när man klickar på den.
+* För att knappen skulle fungera behövde jag, utöver HTML och CSS, dessutom använda JavaScript.
