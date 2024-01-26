@@ -82,6 +82,7 @@ a:active {
     gap: 1rem;
     padding: 0;
     margin: 0;
+    top: 0;
 }
 
 .navbar a {
@@ -112,7 +113,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: black;
-
+    width: 100%;
+    position: fixed;
+    transition: top 0.3s;
 }
 
 .navbar input[type=text] {
@@ -156,4 +159,8 @@ div.navcontent {
 .light {
     background-color: darkgrey;
     background-image: none;
+    opacity: 0.8;
+    background-image:  radial-gradient(#8f8f8f 2px, transparent 2px), radial-gradient(#8f8f8f 2px, #e5e5f7 2px);
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px;
 }

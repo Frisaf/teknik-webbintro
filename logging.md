@@ -37,3 +37,5 @@ Eftersom jag redan hade en mapp vid namn ```code``` behövde jag inte använda m
 * Skapade ```history.html``` med lite rolig internetfakta om världens första mail.
 * Skapade tidigare (hemma) en knapp som skulle kunna ändra bakgrund för bättre läsbarhet om man klickade på den, men lyckades inte få den att fungera. Denna lektionen fixade jag detta, så nu ändrar den bakgrundsfärg till mörkgrå när man klickar på den.
 * För att knappen skulle fungera behövde jag, utöver HTML och CSS, dessutom använda JavaScript.
+* Lade till ett bakgrundsmönster för den alternativa bakgrunden.
+* Gjorde så att navbaren göms när man scrollar ned, men kommer upp igen när man scrollar upp med hjälp av JavaScript och lite CSS.
